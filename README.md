@@ -4,9 +4,9 @@
 
 ## Models
 
-- Post -> date:date rationale:text
-  x User -> Devise
-  x AdminUSER -> STI
+x Post -> date:date rationale:text
+x User -> Devise
+x AdminUSER -> STI
 
 ## Features:
 
@@ -18,4 +18,8 @@
 
 ## UI:
 
-Bootstrap -> formatting
+- Bootstrap -> formatting
+
+## Refactor TODOS:
+
+- Refactor user association integration test in post_spec
